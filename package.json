@@ -11,6 +11,7 @@
   },
   "type": "module",
   "scripts": {
+    "build": "",
     "fmt:clj:check": "cljfmt check --parallel=true common/src/ common/test/ frontend/src/ frontend/test/ backend/src/ backend/test/ exporter/src/",
     "fmt:clj": "cljfmt fix --parallel=true common/src/ common/test/ frontend/src/ frontend/test/ backend/src/ backend/test/ exporter/src/",
     "lint:clj:common": "clj-kondo --parallel=true --lint common/src",
